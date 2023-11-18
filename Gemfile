@@ -51,6 +51,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
   gem 'dotenv-rails'
   gem 'rspec-rails', '~> 6.0.0'
+  gem 'tailwindcss-rails'
 end
 
 group :development do
