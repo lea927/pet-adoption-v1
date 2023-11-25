@@ -33,3 +33,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# IDE auto-generated files
+.idea
+
+/app/assets/builds/*
+!/app/assets/builds/.keep

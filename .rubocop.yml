@@ -1,0 +1,22 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/{rails,rake}'
+    - !ruby/regexp /old_and_unused\.rb$/
+    - Gemfile
+    - Rakefile
+    - 'node_modules/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    - '.git/**/*'
+    - 'log/**/*'
+    - 'public/**/*'
+    - 'coverage/**/*'
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'features/**/*'
